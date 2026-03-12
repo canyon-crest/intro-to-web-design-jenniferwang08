@@ -1,9 +1,83 @@
 img{width:300px;
 float:left;
-border:solid 3px pink;
+border:solid 5px pink;
 border-radius:9px;
 margin-right:20px;}
-body{background-color:rgb(255, 254, 217);
+body{background-color:rgb(254, 143, 177);
+padding:0px;
+margin:0px;
 color:rgb(49, 49, 182);
 font-family:Verdana, Geneva, Tahoma, sans-serif}
 p{line-height:2.3em;}
+#container{
+    background:rgb(255,254,217);
+    padding: 25px;
+    width:1000px;
+    margin:0 auto;
+    border-left:6px solid rgb(216, 235, 255);
+    border-right:6px solid rgb(216,235,255);
+}
+#sidebar{
+    background:rgb(195, 255, 160);
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+    border-radius:25px;
+}
+h1{
+background:rgb(206, 241, 255);
+padding:20px;
+text-align:center;
+width:700px;
+margin:0 auto;
+font-size: 3em;
+border:7px groove violet;
+border-radius: 20px;}
+h2{
+text-align:center;
+}
+h3{
+    width:150px;
+    border-left: 25px double rgb(255, 165, 255);
+    background:rgb(255, 209, 229);
+    padding: 0px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+p{
+    line-height:2.6em;
+}
+#pic2{
+    float:right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.highlight{
+background:rgb(203, 255, 126);
+font-weight:bold;
+color:darkblue;
+padding:6px;
+border-radius:6px;
+}
+a:link{
+    font-weight:bold;
+    color:rgb(220, 27, 185);
+    text-decoration: none;
+
+}
+a:visited{
+    color:rgb(231, 31, 111);
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:rgb(24, 133, 222);
+}
+ul{
+    line-height:1.5em;
+    font-size: 1em;
+}
+
