@@ -1,9 +1,9 @@
 img{width:300px;
 float:left;
-border:solid 5px pink;
+border:solid 5px rgb(255, 172, 186);
 border-radius:9px;
 margin-right:20px;}
-body{background-color:rgb(254, 143, 177);
+body{background-color:rgb(255, 137, 173);
 padding:0px;
 margin:0px;
 color:rgb(49, 49, 182);
@@ -12,22 +12,34 @@ p{line-height:2.3em;}
 #container{
     background:rgb(255,254,217);
     padding: 25px;
-    width:1000px;
+    width:1100px;
     margin:0 auto;
-    border-left:6px solid rgb(216, 235, 255);
-    border-right:6px solid rgb(216,235,255);
+    border-left:10px solid rgb(216, 235, 255);
+    border-right:10px solid rgb(216,235,255);
 }
 #sidebar{
     background:rgb(195, 255, 160);
     padding: 20px;
-    width: 500px;
+    width: 180px;
     margin: 0 auto;
-    border-left: 5px solid blue;
-    border-right: 5px solid blue;
+    border-left: 5px solid rgb(30, 140, 180);
+    border-right: 5px solid rgb(30,140,180);
     border-radius:25px;
+    float:right;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+#sidebar h3{
+    padding:5px;
+    border-width:5px;
+    padding-left:20px;
+    text-align:center;
+}
+ul{
+    line-height:2em;
 }
 h1{
-background:rgb(206, 241, 255);
+background:rgb(210, 242, 255);
 padding:20px;
 text-align:center;
 width:700px;
@@ -40,7 +52,7 @@ text-align:center;
 }
 h3{
     width:150px;
-    border-left: 25px double rgb(255, 165, 255);
+    border-left: 25px double rgb(254, 131, 254);
     background:rgb(255, 209, 229);
     padding: 0px;
     margin-left: 0px;
@@ -55,7 +67,7 @@ p{
     margin-left: 10px;
 }
 .highlight{
-background:rgb(203, 255, 126);
+background:rgb(196, 255, 226);
 font-weight:bold;
 color:darkblue;
 padding:6px;
@@ -68,7 +80,7 @@ a:link{
 
 }
 a:visited{
-    color:rgb(231, 31, 111);
+    color:rgb(221, 37, 111);
 }
 a:hover{
     text-decoration: underline;
@@ -80,4 +92,25 @@ ul{
     line-height:1.5em;
     font-size: 1em;
 }
-
+img:hover{
+    box-shadow:.5px.5px 15px rgb(162, 255, 252);
+}
+@media(max-width:1200px){
+    #container{
+        width:800px;
+    }
+}
+@media(max-width:992px){
+    #container{
+        width:100%;
+        margin:0;
+        padding:0;
+        border:none;
+    }
+    body{
+        padding:20px;
+        background-color:
+    }
+    }
+@media(max-width:768px)
+{#sidebar{display:none;}}
