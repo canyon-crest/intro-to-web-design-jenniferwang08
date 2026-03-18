@@ -10,7 +10,7 @@ color:rgb(49, 49, 182);
 font-family:Verdana, Geneva, Tahoma, sans-serif}
 p{line-height:2.3em;}
 #container{
-    background:rgb(255,254,217);
+    background:rgb(255, 254, 218);
     padding: 25px;
     width:1100px;
     margin:0 auto;
@@ -135,4 +135,31 @@ img:hover{
         margin:0 auto;
         padding:10px;
     }
+}
+body {
+  /* Define a linear gradient with multiple colors */
+  background: linear-gradient(-45deg, #ffefae, #ffd992, #ffa696, #ffa1c7);
+
+  /* Set the background size to be significantly larger than the container */
+  background-size: 400% 400%;
+
+  /* Apply the animation */
+  animation: gradientAnimation 15s ease infinite;
+
+  /* Ensure the body fills the entire viewport height */
+  height: 100vh;
+  margin: 0; /* Remove default body margin */
+  padding: 0;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%; /* Start position */
+  }
+  50% {
+    background-position: 100% 50%; /* Middle position */
+  }
+  100% {
+    background-position: 0% 50%; /* End position, loops back to start */
+  }
 }
