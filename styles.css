@@ -18,7 +18,7 @@ p{line-height:2.3em;}
     border-right:10px solid rgb(216,235,255);
 }
 #sidebar{
-    background:rgb(195, 255, 160);
+    background:rgb(206, 255, 177);
     padding: 20px;
     width: 180px;
     margin: 0 auto;
@@ -67,7 +67,7 @@ p{
     margin-left: 10px;
 }
 .highlight{
-background:rgb(196, 255, 226);
+background:rgb(204, 255, 230);
 font-weight:bold;
 color:darkblue;
 padding:6px;
