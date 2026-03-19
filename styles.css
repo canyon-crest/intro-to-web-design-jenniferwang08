@@ -138,7 +138,7 @@ img:hover{
 }
 body {
   /* Define a linear gradient with multiple colors */
-  background: linear-gradient(-45deg,#ffefaf, #ffd78d, #ff846b, #ff7aaf,#fc66ca);
+  background: linear-gradient(-45deg,#ffefaf, #ffd68b, #ffa372, #ff759a,#ff5ec9);
 
   /* Set the background size to be significantly larger than the container */
   background-size: 400% 400%;
