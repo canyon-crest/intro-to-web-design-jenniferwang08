@@ -18,7 +18,7 @@ p{line-height:2.3em;}
     border-right:10px solid rgb(216,235,255);
 }
 #sidebar{
-    background:rgb(206, 255, 177);
+    background:rgb(208, 255, 181);
     padding: 20px;
     width: 180px;
     margin: 0 auto;
@@ -67,7 +67,7 @@ p{
     margin-left: 10px;
 }
 .highlight{
-background:rgb(204, 255, 230);
+background:rgb(213, 255, 235);
 font-weight:bold;
 color:darkblue;
 padding:6px;
@@ -93,7 +93,7 @@ ul{
     font-size: 1em;
 }
 img:hover{
-    box-shadow:.5px.5px 15px rgb(162, 255, 252);
+    box-shadow:.5px.5px 15px rgb(151, 255, 252);
 }
 @media(max-width:1200px){
     #container{
@@ -138,7 +138,7 @@ img:hover{
 }
 body {
   /* Define a linear gradient with multiple colors */
-  background: linear-gradient(-45deg,#ffefaf, #ffd68b, #ffa372, #ff759a,#ff5ec9);
+  background: linear-gradient(-45deg,#ffefaf, #ffd68b, #ffa372, #ff759a,#ff57c7);
 
   /* Set the background size to be significantly larger than the container */
   background-size: 400% 400%;
