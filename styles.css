@@ -163,3 +163,6 @@ body {
     background-position: 0% 50%; /* End position, loops back to start */
   }
 }
+body {
+    cursor: url('strawberry.png'), auto;
+}
