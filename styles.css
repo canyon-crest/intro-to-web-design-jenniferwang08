@@ -138,13 +138,13 @@ img:hover{
 }
 body {
   /* Define a linear gradient with multiple colors */
-  background: linear-gradient(-45deg, #ffefae, #ffd992, #ffa696, #ffa1c7);
+  background: linear-gradient(-45deg, #ffeea9, #ffd78d, #ff846b, #ff7aaf);
 
   /* Set the background size to be significantly larger than the container */
   background-size: 400% 400%;
 
   /* Apply the animation */
-  animation: gradientAnimation 15s ease infinite;
+  animation: gradientAnimation 8s ease infinite;
 
   /* Ensure the body fills the entire viewport height */
   height: 100vh;
